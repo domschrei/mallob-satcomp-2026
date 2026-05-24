@@ -13,7 +13,7 @@ log_stdout_and_stderr "Hello from run_solver.sh"
 
 MAX_N_SOLVERS_PER_PROCESS=64 # must be the limit set for Mallob at compile time
 MALLOB_IMPCHECK=false # enable to use "ImpCheck" with on-the-fly LRAT checking
-COMPETITION_MODE=true # set to false for local debugging
+COMPETITION_MODE=false # set to false for local debugging
 
 export MALLOC_CONF="thp:always"
 export PATH=.:$PATH
